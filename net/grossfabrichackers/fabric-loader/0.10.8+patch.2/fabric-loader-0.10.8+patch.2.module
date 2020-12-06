@@ -1,0 +1,295 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.grossfabrichackers",
+    "module": "fabric-loader",
+    "version": "0.10.8+patch.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "u3w4jhrarbf3nja76mmku5e37u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.8.2+build.24"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "launchwrapper"
+            },
+            {
+              "group": "*",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "0.2.2.14"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-remapper",
+          "version": {
+            "requires": "0.3.0.70"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "access-widener",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.jimfs",
+          "module": "jimfs",
+          "version": {
+            "requires": "1.2-fabric"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader-sat4j",
+          "version": {
+            "requires": "2.3.5.4"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-loader-0.10.8+patch.2.jar",
+          "url": "fabric-loader-0.10.8+patch.2.jar",
+          "size": 276946,
+          "sha512": "457d9ea39a4d64792abab24c358c45b275b3be5300ee5594fdfff3c8746ca2450caf7f997b87970cf88981113610e5c0564a947120c76656718799c4b7fec3e2",
+          "sha256": "5d23597c462bef62aab61a8ca36a347e9208e320577e5688d7ec581d8af74a5e",
+          "sha1": "559b54857d78a77e21b3c65aeb7d6c809a0f00d3",
+          "md5": "97a717b96f375844b286199574677878"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.8.2+build.24"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "launchwrapper"
+            },
+            {
+              "group": "*",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "0.2.2.14"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-remapper",
+          "version": {
+            "requires": "0.3.0.70"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "access-widener",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.jimfs",
+          "module": "jimfs",
+          "version": {
+            "requires": "1.2-fabric"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader-sat4j",
+          "version": {
+            "requires": "2.3.5.4"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-loader-0.10.8+patch.2.jar",
+          "url": "fabric-loader-0.10.8+patch.2.jar",
+          "size": 276946,
+          "sha512": "457d9ea39a4d64792abab24c358c45b275b3be5300ee5594fdfff3c8746ca2450caf7f997b87970cf88981113610e5c0564a947120c76656718799c4b7fec3e2",
+          "sha256": "5d23597c462bef62aab61a8ca36a347e9208e320577e5688d7ec581d8af74a5e",
+          "sha1": "559b54857d78a77e21b3c65aeb7d6c809a0f00d3",
+          "md5": "97a717b96f375844b286199574677878"
+        }
+      ]
+    }
+  ]
+}

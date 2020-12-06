@@ -3,11 +3,12 @@
   <groupId>net.grossfabrichackers</groupId>
   <artifactId>fabric-loader</artifactId>
   <versioning>
-    <latest>0.10.8</latest>
-    <release>0.10.8</release>
+    <latest>0.10.8+patch.2</latest>
+    <release>0.10.8+patch.2</release>
     <versions>
       <version>0.10.8</version>
+      <version>0.10.8+patch.2</version>
     </versions>
-    <lastUpdated>20201116222713</lastUpdated>
+    <lastUpdated>20201206022045</lastUpdated>
   </versioning>
 </metadata>
