@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.fabricmc",
+    "module": "fabric-loom",
+    "version": "0.5-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "643ulklnhbd7tgs6ely2f6k74m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric-loom-0.5-SNAPSHOT.jar",
+          "url": "fabric-loom-0.5-SNAPSHOT.jar",
+          "size": 247674,
+          "sha512": "e687669dabb9be65fbdaa95841b584094361993ca45ca159fc051843f86ba14544405d5afa4f0cb201de8dcd2500f344d2e6efd9dcdc466952f78882b33900db",
+          "sha256": "4e3db1e171856764dd43bebba82035743ede9599250b04f21082c4f044344577",
+          "sha1": "bea6b5a5ed7fe84df96127128c7f0268279f2463",
+          "md5": "0b0e26c79b77fed99d5a6db94412384d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.zeroturnaround",
+          "module": "zt-zip",
+          "version": {
+            "requires": "1.13"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.0-jre"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "stitch",
+          "version": {
+            "requires": "0.4.6+build.74"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "enigma"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-remapper",
+          "version": {
+            "requires": "0.3.0.70"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "tiny-mappings-parser",
+          "version": {
+            "requires": "0.2.2.14"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "access-widener",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "lorenz-tiny",
+          "version": {
+            "requires": "2.0.0+build.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.cadixdev",
+          "module": "lorenz-io-proguard",
+          "version": {
+            "requires": "0.5.5"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "procyon-fabric-compilertools",
+          "version": {
+            "requires": "0.5.35.13"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "intellij-fernflower",
+          "version": {
+            "requires": "1.2.1.16"
+          }
+        },
+        {
+          "group": "org.benf",
+          "module": "cfr",
+          "version": {
+            "requires": "0.150"
+          }
+        },
+        {
+          "group": "org.cadixdev",
+          "module": "mercury",
+          "version": {
+            "requires": "0.1.0-rc1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-loom-0.5-SNAPSHOT.jar",
+          "url": "fabric-loom-0.5-SNAPSHOT.jar",
+          "size": 247674,
+          "sha512": "e687669dabb9be65fbdaa95841b584094361993ca45ca159fc051843f86ba14544405d5afa4f0cb201de8dcd2500f344d2e6efd9dcdc466952f78882b33900db",
+          "sha256": "4e3db1e171856764dd43bebba82035743ede9599250b04f21082c4f044344577",
+          "sha1": "bea6b5a5ed7fe84df96127128c7f0268279f2463",
+          "md5": "0b0e26c79b77fed99d5a6db94412384d"
+        }
+      ]
+    }
+  ]
+}
