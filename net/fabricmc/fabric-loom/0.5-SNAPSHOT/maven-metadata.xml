@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>fabric-loom</groupId>
-  <artifactId>fabric-loom.gradle.plugin</artifactId>
+  <groupId>net.fabricmc</groupId>
+  <artifactId>fabric-loom</artifactId>
   <version>0.5-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20201209.102954</timestamp>
+      <timestamp>20201209.104204</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20201209102954</lastUpdated>
+    <lastUpdated>20201209104204</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.5-20201209.104204-1</value>
+        <updated>20201209104204</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>pom</extension>
-        <value>0.5-20201209.102954-1</value>
-        <updated>20201209102954</updated>
+        <value>0.5-20201209.104204-1</value>
+        <updated>20201209104204</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.5-20201209.104204-1</value>
+        <updated>20201209104204</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>0.5-20201209.104204-1</value>
+        <updated>20201209104204</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
