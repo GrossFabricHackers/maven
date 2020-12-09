@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>fabric-loom</groupId>
+  <artifactId>fabric-loom.gradle.plugin</artifactId>
+  <versioning>
+    <release>0.5.local</release>
+    <versions>
+      <version>0.5.local</version>
+      <version>0.5-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20201209102954</lastUpdated>
+  </versioning>
+</metadata>
