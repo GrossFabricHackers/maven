@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.devtech</groupId>
+  <artifactId>grossfabrichacks</artifactId>
+  <version>1.0.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>latest.release</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.bytebuddy</groupId>
+      <artifactId>byte-buddy-agent</artifactId>
+      <version>latest.release</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.gudenau.lib</groupId>
+      <artifactId>unsafe</artifactId>
+      <version>latest.release</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>user11681</groupId>
+      <artifactId>dynamicentry</artifactId>
+      <version>latest.release</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>user11681</groupId>
+      <artifactId>reflect</artifactId>
+      <version>latest.release</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
